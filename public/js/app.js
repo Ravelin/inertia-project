@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"1c551286104558932b17"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"1":"23fd17a91328d3730e9d","3":"c53d18f4cbf8528e7888","4":"9807d8ab90d298853530","5":"ac6e1efe26dea1a79cb8"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11837,13 +11837,35 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./About": [
+		"./resources/js/Pages/About.vue",
+		1,
+		3
+	],
+	"./About.vue": [
+		"./resources/js/Pages/About.vue",
+		1,
+		3
+	],
+	"./Contact": [
+		"./resources/js/Pages/Contact.vue",
+		1,
+		4
+	],
+	"./Contact.vue": [
+		"./resources/js/Pages/Contact.vue",
+		1,
+		4
+	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		0
+		1,
+		5
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		0
+		1,
+		5
 	]
 };
 function webpackAsyncContext(req) {
@@ -11856,7 +11878,7 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(function() {
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
 		return __webpack_require__(id);
 	});
 }

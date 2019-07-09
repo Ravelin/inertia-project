@@ -1,7 +1,7 @@
 <template>
     <layout>
         <div>
-            <h2>Welcome</h2>
+            <h2>Contact</h2>
         </div>
     </layout>
 </template>
@@ -18,3 +18,8 @@
         }
     }
 </script>
+
+
+<style>
+
+</style>
