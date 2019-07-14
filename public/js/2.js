@@ -210,7 +210,12 @@ var render = function() {
                   }
                 ],
                 staticClass: "form-control",
-                attrs: { type: "text", id: "name", placeholder: "Name" },
+                attrs: {
+                  type: "text",
+                  name: "name",
+                  id: "name",
+                  placeholder: "Name"
+                },
                 domProps: { value: _vm.form.name },
                 on: {
                   input: function($event) {
@@ -236,7 +241,12 @@ var render = function() {
                   }
                 ],
                 staticClass: "form-control",
-                attrs: { type: "email", id: "email", placeholder: "Email" },
+                attrs: {
+                  type: "email",
+                  name: "email",
+                  id: "email",
+                  placeholder: "Email"
+                },
                 domProps: { value: _vm.form.email },
                 on: {
                   input: function($event) {
@@ -266,6 +276,7 @@ var render = function() {
                 staticClass: "form-control",
                 attrs: {
                   type: "password",
+                  name: "password",
                   id: "password",
                   placeholder: "password"
                 },
@@ -295,7 +306,7 @@ var render = function() {
               "button",
               {
                 staticClass: "btn btn-primary float-right",
-                attrs: { type: "submit" }
+                attrs: { type: "submit", id: "create" }
               },
               [_vm._v("Create User")]
             )
