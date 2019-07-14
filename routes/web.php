@@ -19,3 +19,7 @@ Route::post('/users', 'UsersController@store')->name('users.store');
 Route::get('/users/create', 'UsersController@create')->name('users.create');
 Route::get('/users/{$user}/edit', 'UsersController@edit')->name('users.edit');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

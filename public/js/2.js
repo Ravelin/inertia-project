@@ -380,7 +380,12 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("article", { staticClass: "container" }, [_vm._t("default")], 2)
+    _c(
+      "article",
+      { staticClass: "container", attrs: { dusk: "main-body" } },
+      [_vm._t("default")],
+      2
+    )
   ])
 }
 var staticRenderFns = [

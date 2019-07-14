@@ -164,7 +164,10 @@ var render = function() {
       _c("div", [
         _c(
           "a",
-          { staticClass: "btn btn-primary", attrs: { href: "/users/create" } },
+          {
+            staticClass: "btn btn-primary",
+            attrs: { href: "/users/create", id: "createUser" }
+          },
           [_vm._v("Create")]
         )
       ]),
@@ -271,7 +274,12 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("article", { staticClass: "container" }, [_vm._t("default")], 2)
+    _c(
+      "article",
+      { staticClass: "container", attrs: { dusk: "main-body" } },
+      [_vm._t("default")],
+      2
+    )
   ])
 }
 var staticRenderFns = [

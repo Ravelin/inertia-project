@@ -3,7 +3,7 @@
         <div>
             <h2>Users</h2>
             <div>
-                <a href="/users/create" class="btn btn-primary">Create</a>
+                <a href="/users/create" class="btn btn-primary" id="createUser">Create</a>
             </div>
 
             <table class="table table-responsive-lg table-striped">

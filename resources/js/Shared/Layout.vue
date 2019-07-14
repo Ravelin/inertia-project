@@ -15,7 +15,7 @@
             </div>
         </nav>
 
-        <article class="container">
+        <article class="container" dusk="main-body">
             <slot />
         </article>
     </main>
