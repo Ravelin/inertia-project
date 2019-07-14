@@ -26,3 +26,9 @@
         background-color: coral;
     }
 </style>
+
+<script>
+    export default {
+
+    }
+</script>

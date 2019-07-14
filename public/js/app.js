@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"1":"23fd17a91328d3730e9d","3":"c53d18f4cbf8528e7888","4":"9807d8ab90d298853530","5":"ac6e1efe26dea1a79cb8"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"ff8c867b7bca81e08869","2":"b62f54801eff5ce0dfcc","5":"bd207b80152987c919aa","6":"63d42157ec74f0e8b921","7":"07eb268ac2267e0db8bd","8":"ac6636bbad7fad2b73ba","9":"c6886d45a8458c36cab4"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11839,33 +11839,63 @@ module.exports = g;
 var map = {
 	"./About": [
 		"./resources/js/Pages/About.vue",
-		1,
-		3
+		0,
+		5
 	],
 	"./About.vue": [
 		"./resources/js/Pages/About.vue",
-		1,
-		3
+		0,
+		5
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		1,
-		4
+		0,
+		6
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		1,
-		4
+		0,
+		6
+	],
+	"./Users/Create": [
+		"./resources/js/Pages/Users/Create.vue",
+		0,
+		2
+	],
+	"./Users/Create.vue": [
+		"./resources/js/Pages/Users/Create.vue",
+		0,
+		2
+	],
+	"./Users/Edit": [
+		"./resources/js/Pages/Users/Edit.vue",
+		0,
+		7
+	],
+	"./Users/Edit.vue": [
+		"./resources/js/Pages/Users/Edit.vue",
+		0,
+		7
+	],
+	"./Users/Index": [
+		"./resources/js/Pages/Users/Index.vue",
+		0,
+		8
+	],
+	"./Users/Index.vue": [
+		"./resources/js/Pages/Users/Index.vue",
+		0,
+		8
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
-		5
+		0,
+		9
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
-		5
+		0,
+		9
 	]
 };
 function webpackAsyncContext(req) {
